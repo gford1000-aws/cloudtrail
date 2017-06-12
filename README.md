@@ -11,6 +11,7 @@ The script creates the following:
 Notes:
 
 1. The S3 bucket will not be deleted if the stack is deleted, so that logs are retained.
+2. Only one trail is ever created (EnableCloudWatch condition determines which of the trail resources are created)
 
 
 ## Arguments
